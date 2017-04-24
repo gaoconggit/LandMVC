@@ -1,0 +1,6 @@
+C:\Users\Kim.gao\Desktop\landmvc\DemoWebSite1\Bin\LandMVC.xml
+C:\Users\Kim.gao\Desktop\landmvc\DemoWebSite1\Bin\LandMVC.dll
+C:\Users\Kim.gao\Desktop\landmvc\DemoWebSite1\Bin\LandMVC.pdb
+C:\Users\Kim.gao\Desktop\landmvc\MyMVC\obj\Debug\LandMVC.dll
+C:\Users\Kim.gao\Desktop\landmvc\MyMVC\obj\Debug\LandMVC.pdb
+C:\Users\Kim.gao\Desktop\landmvc\MyMVC\obj\Debug\LandMVC.csprojResolveAssemblyReference.cache
