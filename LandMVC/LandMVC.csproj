@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0151E882-2DE2-44BF-BCF0-B7D10B60BE62}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyMVC</RootNamespace>
+    <AssemblyName>LandMVC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\DemoWebSite1\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>..\DemoWebSite1\Bin\LandMVC.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\DemoWebSite1\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action\XmlResult.cs" />
+    <Compile Include="Attribute\ActionAttribute.cs" />
+    <Compile Include="Attribute\AuthorizeAttribute.cs" />
+    <Compile Include="Attribute\HttpValueIgnoreAttribute.cs" />
+    <Compile Include="Attribute\SessionModeAttribute.cs" />
+    <Compile Include="Cache\ConfigManager.cs" />
+    <Compile Include="Cache\OutputCacheConfig.cs" />
+    <Compile Include="Cache\SetOutputCacheModule.cs" />
+    <Compile Include="Context\CookieHelper.cs" />
+    <Compile Include="Context\TestEnvironment.cs" />
+    <Compile Include="Extension\HttpExtensions.cs" />
+    <Compile Include="Extension\SerializerHelper.cs" />
+    <Compile Include="Extension\StringExtensions.cs" />
+    <Compile Include="Extension\UiHelper.cs" />
+    <Compile Include="Action\IActionResult.cs" />
+    <Compile Include="Action\JsonResult.cs" />
+    <Compile Include="Action\RedirectResult.cs" />
+    <Compile Include="Module\GzipModule.cs" />
+    <Compile Include="OptimizeReflection\DynamicMethodEmit.cs" />
+    <Compile Include="OptimizeReflection\MethodWrapper.cs" />
+    <Compile Include="OptimizeReflection\PropertyWrapper.cs" />
+    <Compile Include="OptimizeReflection\ReflectionExtensions.cs" />
+    <Compile Include="Output\ResponseWriter.cs" />
+    <Compile Include="Pipeline\AjaxHandlerFactory.cs" />
+    <Compile Include="Pipeline\BaseActionHandlerFactory.cs" />
+    <Compile Include="Pipeline\ServiceHandlerFactory.cs" />
+    <Compile Include="Pipeline\UrlHelper.cs" />
+    <Compile Include="Reflection\ActionDescription.cs" />
+    <Compile Include="Reflection\BaseDescription.cs" />
+    <Compile Include="Reflection\ControllerActionPair.cs" />
+    <Compile Include="Reflection\ControllerDescription.cs" />
+    <Compile Include="Reflection\ModelDescripton.cs" />
+    <Compile Include="Reflection\ReflectionExtensions2.cs" />
+    <Compile Include="Reflection\VoidType.cs" />
+    <Compile Include="Serializer\ActionParametersProviderFactory.cs" />
+    <Compile Include="Serializer\FormDataProvider.cs" />
+    <Compile Include="Serializer\IActionParametersProvider.cs" />
+    <Compile Include="Serializer\JsonDataProvider.cs" />
+    <Compile Include="Serializer\XmlDataProvider.cs" />
+    <Compile Include="Xml\XmlHelper.cs" />
+    <Compile Include="Pipeline\ActionHandler.cs" />
+    <Compile Include="Pipeline\MvcPageHandlerFactory.cs" />
+    <Compile Include="Cache\OutputCacheAttribute.cs" />
+    <Compile Include="Exception\ExceptionHelper.cs" />
+    <Compile Include="Action\ActionExecutor.cs" />
+    <Compile Include="Reflection\ModelHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection\DataMember.cs" />
+    <Compile Include="Context\HttpContextHelper.cs" />
+    <Compile Include="Reflection\ReflectionHelper.cs" />
+    <Compile Include="Reflection\InvokeInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
