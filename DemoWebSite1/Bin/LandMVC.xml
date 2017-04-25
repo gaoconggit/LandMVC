@@ -215,11 +215,6 @@
             响应AJAX请求的HttpHandlerFactory。它要求将所有Action放在一个以Ajax开头的类型中。
             </summary>
         </member>
-        <member name="T:LandMVC.ServiceHandlerFactory">
-            <summary>
-            响应服务请求的HttpHandlerFactory。它要求将所有Action放在一个以Service结尾的类型中。
-            </summary>
-        </member>
         <member name="M:LandMVC.UrlHelper.GetRealVirtualPath(System.Web.HttpContext,System.String)">
             <summary>
             获取实际的虚拟路径，如果网站部署在虚拟目录中，将去除虚拟目录的顶层目录名。
@@ -280,14 +275,6 @@
             <param name="path">文件路径</param>
             <param name="encoding">编码方式</param>
             <returns>反序列化得到的对象</returns>
-        </member>
-        <member name="M:LandMVC.MvcPageHandlerFactory.TryGetHandler(System.Web.HttpContext)">
-            <summary>
-            尝试根据当前请求，获取一个有效的Action，并返回ActionHandler
-            此方法可以在HttpModule中使用，用于替代httpHandler的映射配置
-            </summary>
-            <param name="context"></param>
-            <returns></returns>
         </member>
         <member name="F:LandMVC.ActionExecutor.LandVersion">
             <summary>

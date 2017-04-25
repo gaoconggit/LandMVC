@@ -77,7 +77,6 @@
     <Compile Include="Output\ResponseWriter.cs" />
     <Compile Include="Pipeline\AjaxHandlerFactory.cs" />
     <Compile Include="Pipeline\BaseActionHandlerFactory.cs" />
-    <Compile Include="Pipeline\ServiceHandlerFactory.cs" />
     <Compile Include="Pipeline\UrlHelper.cs" />
     <Compile Include="Reflection\ActionDescription.cs" />
     <Compile Include="Reflection\BaseDescription.cs" />
@@ -93,7 +92,6 @@
     <Compile Include="Serializer\XmlDataProvider.cs" />
     <Compile Include="Xml\XmlHelper.cs" />
     <Compile Include="Pipeline\ActionHandler.cs" />
-    <Compile Include="Pipeline\MvcPageHandlerFactory.cs" />
     <Compile Include="Cache\OutputCacheAttribute.cs" />
     <Compile Include="Exception\ExceptionHelper.cs" />
     <Compile Include="Action\ActionExecutor.cs" />
