@@ -62,14 +62,7 @@ namespace LandMVC
 
 			return val;
 		}
-		//public static string GetHttpValue(HttpRequest request, string name)
-		//{
-		//    string val = request.QueryString[name];
-		//    if( val == null )
-		//        val = request.Form[name];
-
-		//    return val;
-		//}
+	
 
 		private static string[] GetValueFromHttpRequest(HttpRequest request, string name, string parentName)
 		{

@@ -226,30 +226,6 @@ namespace LandMVC
                 vkInfo.Instance = vkInfo.Controller.ControllerType.FastNew();
             return vkInfo;
         }
-        /// <summary>
-        /// 根据一个页面请求路径，返回内部表示的调用信息。
-        /// </summary>
-        /// <param name="url"></param>
-        /// <returns></returns>
-        public static InvokeInfo GetActionInvokeInfo(string url)
-        {
-            if (string.IsNullOrEmpty(url))
-                throw new ArgumentNullException("url");
-            ActionDescription action = null;
-            if (s_PageActionDict.TryGetValue(url, out action) == false)
-                return null;
-
-            InvokeInfo vkInfo = new InvokeInfo();
-            vkInfo.Controller = action.PageController;
-            vkInfo.Action = action;
-
-            if (vkInfo.Action.MethodInfo.IsStatic == false)
-                //vkInfo.Instance = Activator.CreateInstance(vkInfo.Controller.ControllerType);
-                vkInfo.Instance = vkInfo.Controller.ControllerType.FastNew();
-
-            return vkInfo;
-        }
-
 
         private static Hashtable s_modelTable = Hashtable.Synchronized(
                                             new Hashtable(4096, StringComparer.OrdinalIgnoreCase));

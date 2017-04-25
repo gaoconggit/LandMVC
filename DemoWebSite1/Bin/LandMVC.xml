@@ -357,13 +357,6 @@
             <param name="pair"></param>
             <returns></returns>
         </member>
-        <member name="M:LandMVC.ReflectionHelper.GetActionInvokeInfo(System.String)">
-            <summary>
-            根据一个页面请求路径，返回内部表示的调用信息。
-            </summary>
-            <param name="url"></param>
-            <returns></returns>
-        </member>
         <member name="M:LandMVC.ReflectionHelper.GetModelDescripton(System.Type)">
             <summary>
             返回一个实体类型的描述信息（全部属性及字段）。

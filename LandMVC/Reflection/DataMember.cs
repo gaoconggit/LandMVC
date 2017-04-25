@@ -31,13 +31,13 @@ namespace LandMVC
 
 		public override object GetValue(object obj)
 		{
-			//return _pi.GetValue(obj, null);
+		
 			return _pi.FastGetValue(obj);
 		}
 
 		public override void SetValue(object obj, object val)
 		{
-			//_pi.SetValue(obj, val, null);
+		
 			_pi.FastSetValue(obj, val);
 		}
 
@@ -73,13 +73,13 @@ namespace LandMVC
 
 		public override object GetValue(object obj)
 		{
-			//return _field.GetValue(obj);
+			
 			return _field.FastGetValue(obj);
 		}
 
 		public override void SetValue(object obj, object val)
 		{
-			//_field.SetValue(obj, val);
+		
 			_field.FastSetField(obj, val);
 		}
 
