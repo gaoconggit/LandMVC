@@ -6,3 +6,8 @@ C:\Users\Kim.gao\Desktop\landmvc\MyMVC\obj\Debug\LandMVC.pdb
 C:\Users\Kim.gao\Desktop\landmvc\MyMVC\obj\Debug\LandMVC.csprojResolveAssemblyReference.cache
 C:\Users\Kim.gao\Desktop\landmvc\LandMVC\obj\Debug\LandMVC.dll
 C:\Users\Kim.gao\Desktop\landmvc\LandMVC\obj\Debug\LandMVC.pdb
+C:\Users\Administrator\Desktop\Landmvc\LandMVC\LandMVC\obj\Debug\LandMVC.dll
+C:\Users\Administrator\Desktop\Landmvc\LandMVC\DemoWebSite1\Bin\LandMVC.xml
+C:\Users\Administrator\Desktop\Landmvc\LandMVC\DemoWebSite1\Bin\LandMVC.dll
+C:\Users\Administrator\Desktop\Landmvc\LandMVC\DemoWebSite1\Bin\LandMVC.pdb
+C:\Users\Administrator\Desktop\Landmvc\LandMVC\LandMVC\obj\Debug\LandMVC.pdb
