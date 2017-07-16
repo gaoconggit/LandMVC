@@ -11,3 +11,12 @@ C:\Users\Administrator\Desktop\Landmvc\LandMVC\DemoWebSite1\Bin\LandMVC.xml
 C:\Users\Administrator\Desktop\Landmvc\LandMVC\DemoWebSite1\Bin\LandMVC.dll
 C:\Users\Administrator\Desktop\Landmvc\LandMVC\DemoWebSite1\Bin\LandMVC.pdb
 C:\Users\Administrator\Desktop\Landmvc\LandMVC\LandMVC\obj\Debug\LandMVC.pdb
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\DemoWebSite1\Bin\LandMVC.xml
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\DemoWebSite1\Bin\LandMVC.dll
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\DemoWebSite1\Bin\LandMVC.pdb
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVC\obj\Debug\LandMVC.dll
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVC\obj\Debug\LandMVC.pdb
+C:\Bin\LandMVC.xml
+C:\Bin\LandMVC.dll
+C:\Bin\LandMVC.pdb
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVC\obj\Debug\LandMVC.csprojResolveAssemblyReference.cache

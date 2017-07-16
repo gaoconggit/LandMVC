@@ -7,3 +7,12 @@ C:\Users\Administrator\Desktop\Landmvc\LandMVC\LandMVCDemo\bin\LandMVC.dll
 C:\Users\Administrator\Desktop\Landmvc\LandMVC\LandMVCDemo\bin\LandMVC.pdb
 C:\Users\Administrator\Desktop\Landmvc\LandMVC\LandMVCDemo\bin\LandMVC.xml
 C:\Users\Administrator\Desktop\Landmvc\LandMVC\LandMVCDemo\obj\Debug\LandMVCDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\bin\LandMVCDemo.dll.config
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\bin\LandMVCDemo.dll
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\bin\LandMVCDemo.pdb
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\bin\LandMVC.dll
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\bin\LandMVC.pdb
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\bin\LandMVC.xml
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\obj\Debug\LandMVCDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\obj\Debug\LandMVCDemo.dll
+C:\Users\Administrator\Desktop\LandMVC-master\LandMVC-master\LandMVCDemo\obj\Debug\LandMVCDemo.pdb
